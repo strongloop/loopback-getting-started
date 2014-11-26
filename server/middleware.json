@@ -13,10 +13,13 @@
   },
   "routes": {
     "loopback#status": {
-      "paths": "/"
+      "paths": "/status"
     }
   },
   "files": {
+    "loopback#static": {
+      "params": "$!../client"
+    }
   },
   "final": {
     "loopback#urlNotFound": {}
