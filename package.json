@@ -1,0 +1,33 @@
+{
+  "name": "loopback-getting-started",
+  "version": "0.0.0",
+  "main": "server/server.js",
+  "scripts": {
+    "pretest": "jshint ."
+  },
+  "dependencies": {
+    "compression": "^1.0.3",
+    "errorhandler": "^1.1.1",
+    "loopback": "^2.5.0",
+    "loopback-boot": "^2.2.0",
+    "loopback-component-explorer": "^2.1.0",
+    "loopback-connector-mysql": "^1.4.7",
+    "loopback-datasource-juggler": "^2.7.0",
+    "serve-favicon": "^2.0.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.6"
+  },
+  "license": "MIT",
+  "description": "This the example application that accompanies the [Getting started with LoopBack](http://docs.strongloop.com/display/LB/Getting+started+with+LoopBack) tutorial. Follow the steps in the tutorial to create this application from scratch.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strongloop/loopback-getting-started.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/strongloop/loopback/issues"
+  },
+  "homepage": "https://github.com/strongloop/loopback-getting-started#readme"
+}
