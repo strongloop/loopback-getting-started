@@ -15,6 +15,10 @@ app.start = function() {
   });
 };
 
+app.use('/express-status', function(req, res, next) {
+  res.json({ running: true });
+});
+
 // start the server if `$ node server.js`
 if (require.main === module) {
   app.start();
