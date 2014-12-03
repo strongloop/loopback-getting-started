@@ -1,0 +1,6 @@
+{
+  "mysqlDs": {
+    "name": "mysqlDs",
+    "connector": "memory"
+  }
+}
