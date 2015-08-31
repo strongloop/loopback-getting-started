@@ -1,6 +1,6 @@
 module.exports = function(app) {
-  app.dataSources.mysqlDs.automigrate('CoffeeShop', function(err) {
-    if (err) throw err;
+  // app.dataSources.mysqlDs.automigrate('CoffeeShop', function(err) {
+    // if (err) throw err;
 
     app.models.CoffeeShop.create([
       {name: 'Bel Cafe', city: 'Vancouver'},
@@ -11,5 +11,5 @@ module.exports = function(app) {
 
       console.log('Models created: \n', coffeeShops);
     });
-  });
+  // });
 };
