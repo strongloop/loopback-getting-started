@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "main": "server/server.js",
   "scripts": {
-    "pretest": "jshint ."
+    "pretest": "jshint .",
+    "test": "mocha -R spec test"
   },
   "dependencies": {
     "compression": "^1.0.3",
@@ -12,12 +13,14 @@
     "loopback-boot": "^2.2.0",
     "loopback-connector-mysql": "^1.4.7",
     "loopback-datasource-juggler": "^2.7.0",
-    "serve-favicon": "^2.0.1"
+    "serve-favicon": "^2.0.1",
+    "supertest": "^1.1.0"
   },
   "optionalDependencies": {
     "loopback-explorer": "^1.1.0"
   },
   "devDependencies": {
-    "jshint": "^2.5.6"
+    "jshint": "^2.5.6",
+    "mocha": "^1.20.1"
   }
 }
