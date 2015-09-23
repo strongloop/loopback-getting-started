@@ -35,6 +35,7 @@ describe('REST API request', function() {
       });
   });
 
+  var coffeeShopId;
   it('should create a new coffee shop', function(done){
     json('post', '/api/CoffeeShops')
       .send({
