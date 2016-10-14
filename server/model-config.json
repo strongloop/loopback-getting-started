@@ -5,6 +5,12 @@
       "loopback/server/models",
       "../common/models",
       "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
     ]
   },
   "User": {
@@ -27,7 +33,7 @@
     "public": false
   },
   "CoffeeShop": {
-    "dataSource": "mysqlDs",
+    "dataSource": "db",
     "public": true
   }
 }
