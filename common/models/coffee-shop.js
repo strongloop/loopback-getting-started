@@ -19,7 +19,7 @@ module.exports = function(CoffeeShop) {
     'status',
     {
       http: {path: '/status', verb: 'get'},
-      returns: {arg: 'status', type: 'string'}
+      returns: {arg: 'status', type: 'string'},
     }
   );
 };
