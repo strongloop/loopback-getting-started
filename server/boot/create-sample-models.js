@@ -6,14 +6,14 @@ module.exports = function(app) {
 
     app.models.CoffeeShop.create([{
       name: 'Bel Cafe',
-      city: 'Vancouver'
+      city: 'Vancouver',
     }, {
       name: 'Three Bees Coffee House',
-      city: 'San Mateo'
+      city: 'San Mateo',
     }, {
       name: 'Caffe Artigiano',
-      city: 'Vancouver'
-    }, ], function(err, coffeeShops) {
+      city: 'Vancouver',
+    }], function(err, coffeeShops) {
       if (err) throw err;
 
       console.log('Models created: \n', coffeeShops);
