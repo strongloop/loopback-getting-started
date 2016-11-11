@@ -18,6 +18,5 @@
     },
     "cors": false,
     "handleErrors": false
-  },
-  "legacyExplorer": false
+  }
 }
