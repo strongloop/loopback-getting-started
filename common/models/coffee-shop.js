@@ -19,12 +19,12 @@ module.exports = function(CoffeeShop) {
     'status', {
       http: {
         path: '/status',
-        verb: 'get'
+        verb: 'get',
       },
       returns: {
         arg: 'status',
-        type: 'string'
-      }
+        type: 'string',
+      },
     }
   );
 };
