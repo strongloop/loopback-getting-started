@@ -27,6 +27,9 @@
     "type": "",
     "url": ""
   },
+  "bugs": {
+    "url": "https://github.com/strongloop/loopback-getting-started/issues"
+  },
   "license": "UNLICENSED",
   "description": "loopback-getting-started"
 }
