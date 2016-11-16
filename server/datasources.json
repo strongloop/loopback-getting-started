@@ -7,7 +7,7 @@
     "host": "demo.strongloop.com",
     "port": 3306,
     "url": "",
-    "database": "getting_started",
+    "database": "getting_started_intermediate",
     "password": "L00pBack",
     "name": "mysqlDs",
     "user": "demo",
