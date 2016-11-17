@@ -1,7 +1,3 @@
-**PLEASE CREATE ISSUES AT https://github.com/strongloop/loopback/issues**
-
----
-
 #loopback-getting-started
 
 This is the example application that accompanies the [Getting started with LoopBack](http://docs.strongloop.com/display/LB/Getting+started+with+LoopBack) tutorial. Follow the steps in the tutorial to create this application from scratch.
