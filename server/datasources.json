@@ -8,7 +8,7 @@
     "connector": "mysql",
     "host": "demo.strongloop.com",
     "port": 3306,
-    "database": "getting_started",
+    "database": "getting_started_intermediate",
     "username": "demo",
     "password": "L00pBack"
   }
