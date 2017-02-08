@@ -2,6 +2,7 @@
   "name": "CoffeeShop",
   "base": "PersistedModel",
   "idInjection": true,
+  "forceId": false,
   "options": {
     "validateUpsert": true
   },
