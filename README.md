@@ -1,4 +1,4 @@
-#loopback-getting-started
+# loopback-getting-started
 
 This is the example application that accompanies the [Getting started with LoopBack](http://loopback.io/doc/en/lb3/Getting-started-with-LoopBack.html) tutorial. Follow the steps in the tutorial to create this application from scratch.
 
