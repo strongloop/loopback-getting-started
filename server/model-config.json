@@ -26,7 +26,10 @@
   },
   "RoleMapping": {
     "dataSource": "db",
-    "public": false
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
   },
   "Role": {
     "dataSource": "db",
@@ -34,6 +37,10 @@
   },
   "CoffeeShop": {
     "dataSource": "mysqlDs",
+    "public": true
+  },
+  "CoffeeDispatcher": {
+    "dataSource": null,
     "public": true
   }
 }

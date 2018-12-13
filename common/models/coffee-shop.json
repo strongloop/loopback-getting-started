@@ -2,7 +2,6 @@
   "name": "CoffeeShop",
   "base": "PersistedModel",
   "idInjection": true,
-  "forceId": false,
   "options": {
     "validateUpsert": true
   },
@@ -12,7 +11,8 @@
       "required": true
     },
     "city": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],

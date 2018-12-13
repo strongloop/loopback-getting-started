@@ -1,0 +1,7 @@
+{
+    "name": "CoffeeDispatcher",
+    "base": "Model",
+    "http": {
+      "path": "/coffee"
+    }
+  }
