@@ -2,26 +2,28 @@
   "name": "loopback-getting-started",
   "version": "1.0.0",
   "main": "server/server.js",
+  "engines": {
+    "node": ">=6"
+  },
   "scripts": {
     "lint": "eslint .",
     "start": "node .",
-    "posttest": "npm run lint && nsp check"
+    "posttest": "npm run lint"
   },
   "dependencies": {
     "compression": "^1.0.3",
     "cors": "^2.5.2",
-    "helmet": "^3.8.2",
+    "helmet": "^3.15.0",
     "loopback": "^3.0.0",
-    "loopback-boot": "^2.6.5",
-    "loopback-component-explorer": "^5.0.0",
-    "loopback-connector-mysql": "^2.4.0",
+    "loopback-boot": "^3.1.1",
+    "loopback-component-explorer": "^6.3.1",
+    "loopback-connector-mysql": "^5.3.1",
     "serve-favicon": "^2.0.1",
-    "strong-error-handler": "^1.0.1"
+    "strong-error-handler": "^3.2.0"
   },
   "devDependencies": {
     "eslint": "^2.13.1",
-    "eslint-config-loopback": "^4.0.0",
-    "nsp": "^2.1.0"
+    "eslint-config-loopback": "^4.0.0"
   },
   "repository": {
     "type": "",
