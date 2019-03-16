@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = function(app) {
-  app.dataSources.mysqlDs.automigrate('CoffeeShop', function(err) {
+  app.dataSources.mysqlIDs.automigrate('CoffeeShop', function(err) {
     if (err) throw err;
 
     app.models.CoffeeShop.create([{
