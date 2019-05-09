@@ -33,5 +33,6 @@
     "url": "https://github.com/strongloop/loopback-getting-started/issues"
   },
   "license": "UNLICENSED",
-  "description": "loopback-getting-started"
+  "description": "loopback-getting-started",
+  "author": "IBM Corp."
 }
